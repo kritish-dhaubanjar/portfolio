@@ -4,8 +4,8 @@
     <app-header :toggleDrawer="toggleDrawer"/>
     <transition
       appear
-      enter-active-class="animated slideInLeft"
-      leave-active-class="animated slideOutLeft"
+      enter-active-class="animated slideInLeft faster"
+      leave-active-class="animated slideOutLeft fast"
     >
       <app-drawer v-if="toggle" :toggleDrawer="toggleDrawer"/>
     </transition>
@@ -16,7 +16,6 @@
 </template>
 
 <script>
-import { eventBus } from "./main";
 import Menu from "./components/Menu";
 import Header from "./components/Header";
 import Drawer from "./components/Drawer";
