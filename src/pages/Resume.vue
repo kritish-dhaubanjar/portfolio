@@ -113,7 +113,7 @@
               <h6>Web Design</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr>
+                  <hr width="70%">
                 </div>
               </div>
             </div>
@@ -186,7 +186,7 @@
               <h6>Print Design</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr>
+                  <hr width="40%">
                 </div>
               </div>
             </div>
@@ -238,7 +238,13 @@
     margin-bottom: 0.5rem;
   }
 }
-
+@keyframes progressBar {
+  from {
+    width: 0%;
+  }
+  to {
+  }
+}
 .skill {
   padding-bottom: 0.8rem;
   h6 {
@@ -255,9 +261,10 @@
   }
   hr {
     border-radius: 5rem;
-    width: 70%;
+    // width: 70%;
     margin: 0.2rem;
     border: 3px solid #e65859;
+    animation: progressBar 0.5s ease;
   }
 }
 

@@ -56,10 +56,10 @@
             </div>
           </div>
           <div class="owl-control">
-            <button class="btn btn-secondary" @click="next">
+            <button class="btn btn-secondary" @click="prev">
               <i class="fa fa-angle-left" aria-hidden="true"></i>
             </button>
-            <button class="btn btn-secondary" @click="prev">
+            <button class="btn btn-secondary" @click="next">
               <i class="fa fa-angle-right" aria-hidden="true"></i>
             </button>
           </div>

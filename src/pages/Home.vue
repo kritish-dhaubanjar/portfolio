@@ -37,6 +37,12 @@
             </td>
             <td>Available</td>
           </tr>
+          <tr>
+            <td>
+              <span class="head">Designed by</span>
+            </td>
+            <td>Kritish Dhaubanjar</td>
+          </tr>
         </table>
       </div>
     </div>

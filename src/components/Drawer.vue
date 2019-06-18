@@ -1,10 +1,9 @@
 <template>
-  <div id="menu" class="d-md-none d-sm-none d-none d-lg-block d-xl-block">
+  <div id="drawer" class="d-md-block d-sm-block d-block d-lg-none d-xl-none">
     <img src="./../assets/my_photo.png" class="img-fluid">
     <h3>Kritish Dhaubanjar</h3>
     <p class="text-muted">Computer Engineer</p>
-    <br>
-    <ul class="list-group">
+    <ul class="list-group" @click="toggleDrawer">
       <!-- <li class="list-group-item active-link">Home</li> -->
       <router-link to="/" exact tag="li" class="list-group-item" active-class="active-link">Home</router-link>
       <router-link
@@ -37,8 +36,7 @@
       >Contact</router-link>
     </ul>
     <br>
-    <br>
-    <ul id="social">
+    <ul id="social" @click="toggleDrawer">
       <li>
         <i class="fa fa-github"></i>
       </li>
@@ -53,30 +51,50 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["toggleDrawer"]
+};
 </script>
 
-<style lang="scss" scoped>
-#menu {
-  font-family: "Oswald", sans-serif !important;
-  text-align: center;
-  padding-top: 2rem;
-  position: fixed;
-  top: 0;
-  width: 22.5%;
-  height: 100%;
-  background-color: #fff;
-  left: 0;
-  overflow: auto;
-}
 
+<style lang="scss" scoped>
+#drawer {
+  font-family: "Oswald", sans-serif !important;
+  background-color: #fff;
+  position: fixed;
+  height: 100%;
+  width: 30%;
+  z-index: 20;
+  text-align: center;
+  overflow-y: auto;
+  box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
 img {
   width: 6.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
 }
 
-i {
-  font-size: 1rem;
-  color: #888;
+@media screen and (min-height: 569px) {
+  img {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  #drawer {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 576px) and (min-width: 375px) {
+  #drawer {
+    width: 60% !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  #drawer {
+    width: 40% !important;
+  }
 }
 </style>
+

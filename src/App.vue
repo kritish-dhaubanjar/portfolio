@@ -1,6 +1,14 @@
 <template>
   <div class="container">
     <app-menu/>
+    <app-header :toggleDrawer="toggleDrawer"/>
+    <transition
+      appear
+      enter-active-class="animated slideInLeft"
+      leave-active-class="animated slideOutLeft"
+    >
+      <app-drawer v-if="toggle" :toggleDrawer="toggleDrawer"/>
+    </transition>
     <transition appear enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">
       <router-view></router-view>
     </transition>
@@ -8,13 +16,25 @@
 </template>
 
 <script>
+import { eventBus } from "./main";
 import Menu from "./components/Menu";
-import Home from "./pages/Home";
+import Header from "./components/Header";
+import Drawer from "./components/Drawer";
 export default {
   name: "App",
+  data() {
+    return { toggle: false };
+  },
+
+  methods: {
+    toggleDrawer() {
+      this.toggle = !this.toggle;
+    }
+  },
   components: {
     appMenu: Menu,
-    appHome: Home
+    appHeader: Header,
+    appDrawer: Drawer
   }
 };
 </script>
@@ -64,6 +84,7 @@ a {
     background-color: $color;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   }
   h4::before {
     content: "";
@@ -126,6 +147,58 @@ h6 {
 @media screen and (max-width: 991px) {
   .page {
     width: 100%;
+    padding-top: 5rem;
+    top: 50;
+  }
+}
+
+#social {
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  li {
+    transition: 0.2s ease-out;
+    background-color: #eee;
+    display: inline;
+    padding-top: 0.2rem;
+    padding: 0.25rem 0.6rem;
+    margin-right: 0.5rem;
+    &:hover {
+      transition: 0.2s ease-in;
+      background-color: #e65959;
+      cursor: pointer;
+      i {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.list-group {
+  .active-link {
+    background-color: #fcfcfc;
+    border-right: solid #e65959 0.25rem;
+    &:hover {
+      background-color: #fcfcfc;
+      border-right: solid #e65959 0.25rem;
+      cursor: pointer;
+    }
+  }
+
+  li {
+    text-align: center;
+    padding-left: 0.5rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 0 !important;
+    border: 1px solid #f5f5f5;
+    border-right: solid #fff 0.25rem;
+
+    &:hover {
+      background-color: #fcfcfc;
+      border-right: solid #eee 0.25rem;
+      cursor: pointer;
+    }
   }
 }
 </style>
