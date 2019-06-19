@@ -128,6 +128,7 @@ table {
 @media screen and (max-width: 991px) {
   #home {
     width: 100%;
+    margin-top: 1rem;
     h1 {
       font-size: 2.75rem;
     }
