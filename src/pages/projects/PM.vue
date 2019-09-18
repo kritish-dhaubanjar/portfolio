@@ -1,7 +1,7 @@
 <template>
   <div id="project" class="page">
     <div class="container-fluid">
-      <h3>Project Portfolio</h3>
+      <h3>P.M. Construction and Engineers</h3>
       <button type="button" class="btn btn-primary return" @click="$router.go(-1)">
         <i class="fa fa-times" aria-hidden="true"></i>
       </button>
@@ -9,22 +9,13 @@
         <div class="portfolio-carousel col-lg-6 col-md-6 col-12">
           <div class="owl-carousel">
             <div>
-              <img
-                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/images/portfolio/portfolio_details/1_1.jpg"
-                class="img-fluid"
-              >
+              <img src="../../../dist/works/portfolio/_PM001.png" class="img-fluid" />
             </div>
             <div>
-              <img
-                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/images/portfolio/portfolio_details/1_2.jpg"
-                class="img-fluid"
-              >
+              <img src="../../../dist/works/portfolio/_PM002.png" class="img-fluid" />
             </div>
             <div>
-              <img
-                src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/images/portfolio/portfolio_details/1_3.jpg"
-                class="img-fluid"
-              >
+              <img src="../../../dist/works/portfolio/_PM003.png" class="img-fluid" />
             </div>
           </div>
           <div class="navigation">
@@ -46,16 +37,16 @@
           </p>
           <p>
             <i class="fa fa-globe" aria-hidden="true"></i>
-            <a href="www.krtishdhaubanjar.com.np">www.kritishdhaubanjar.com.np</a>
+            <a href="http://www.pmconstructioneng.com" target="_blank">www.pmconstructioneng.com</a>
           </p>
           <p>
-            <i class="fa fa-calendar" aria-hidden="true"></i>25 March, 2019
+            <i class="fa fa-calendar" aria-hidden="true"></i>06 July, 2019
           </p>
           <p>
-            <i class="fa fa-github" aria-hidden="true"></i>https://github.com/kritish-dhaubanjar
+            <i class="fa fa-github" aria-hidden="true"></i>[Private]
           </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam iure quos nam expedita quasi similique sunt qui, eos, voluptates doloremque culpa esse recusandae debitis quaerat inventore quia rerum nesciunt assumenda!</p>
-          <br>
+          <p>Portfolio website for "P.M Construction and Engineers".</p>
+          <br />
           <h6>
             <span>Technology</span>
           </h6>
@@ -65,7 +56,9 @@
               <li>SCSS</li>
               <li>Javascript</li>
               <li>Vue.js</li>
-              <li>Vue</li>
+              <li>php</li>
+              <li>Laravel</li>
+              <li>MySQL</li>
             </ul>
           </div>
         </div>
