@@ -6,11 +6,11 @@
           <h4>Resume</h4>
         </div>
         <div class="col d-md-none d-none d-sm-none d-lg-block">
-          <p class="headline text-muted">1 Years of Experience</p>
+          <!-- <p class="headline text-muted">1 Years of Experience</p> -->
         </div>
       </div>
-      <br>
-      <br>
+      <br />
+      <br />
       <div class="row">
         <div class="info col-lg-4 col-md-4 col-12">
           <div>
@@ -19,39 +19,45 @@
                 <span>Education</span>
               </h6>
               <h6 class="date">
-                <p>2010</p>
+                <p>2019</p>
               </h6>
             </div>
             <div class="detail">
-              <h6>Specialization Course</h6>
-              <p class="text-muted">University of Studies</p>
-              <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              <h6>Bachelor's Degree in Computer Engineering</h6>
+              <p class="text-muted">Kantipur Engineering College</p>
+              <p>Tribhuvan University</p>
             </div>
           </div>
 
           <div>
             <div>
               <h6 class="date">
-                <p>2010</p>
+                <p>2015</p>
               </h6>
             </div>
             <div class="detail">
-              <h6>Specialization Course</h6>
-              <p class="text-muted">University of Studies</p>
-              <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              <h6>Higher Secondary Education</h6>
+              <p class="text-muted">GoldenGate Int'l College</p>
+              <p>
+                Higher Secondary Education Board
+                <br />Percentage: 84.30%
+              </p>
             </div>
           </div>
 
           <div>
             <div>
               <h6 class="date">
-                <p>2010</p>
+                <p>2013</p>
               </h6>
             </div>
             <div class="detail">
-              <h6>Specialization Course</h6>
-              <p class="text-muted">University of Studies</p>
-              <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              <h6>S.L.C</h6>
+              <p class="text-muted">Nobel Academy H.S. School</p>
+              <p>
+                Board: Government of Nepal
+                <br />Percentage: 86.50%
+              </p>
             </div>
           </div>
         </div>
@@ -60,43 +66,29 @@
           <div>
             <div>
               <h6>
-                <span>Experience</span>
+                <span>Awards &amp; Scholarships</span>
               </h6>
               <h6 class="date">
-                <p>Dec 2012 - Current</p>
+                <p>2019</p>
               </h6>
             </div>
 
             <div class="detail">
-              <h6>Frontend-developer</h6>
-              <p class="text-muted">Web Agency</p>
-              <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              <h6>Best Minor Project in Computer Engineering</h6>
+              <p class="text-muted">Kantipur Engineering College</p>
+              <p>In recognition of the best minor project entitled "Home Automation with RPi".</p>
             </div>
           </div>
           <div>
             <div>
               <h6 class="date">
-                <p>Dec 2012 - Current</p>
+                <p>2016</p>
               </h6>
             </div>
-
             <div class="detail">
-              <h6>Frontend-developer</h6>
-              <p class="text-muted">Web Agency</p>
-              <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <h6 class="date">
-                <p>Dec 2012 - Current</p>
-              </h6>
-            </div>
-
-            <div class="detail">
-              <h6>Frontend-developer</h6>
-              <p class="text-muted">Web Agency</p>
-              <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+              <h6>Four Year Scholarship</h6>
+              <p class="text-muted">Kantipur Engineering College</p>
+              <p>In recognition of ranking 353, scoring 72.86% in BE/B.Arch. Entrance Examination 2072.</p>
             </div>
           </div>
         </div>
@@ -113,7 +105,7 @@
               <h6>Web Design</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr width="70%">
+                  <hr width="70%" />
                 </div>
               </div>
             </div>
@@ -122,22 +114,22 @@
               <h6>Graphic Design</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr>
+                  <hr width="50%" />
                 </div>
               </div>
             </div>
 
             <div class="skill">
-              <h6>Print Design</h6>
+              <h6>Documentation (LaTex, Markdown)</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr>
+                  <hr width="70%" />
                 </div>
               </div>
             </div>
           </div>
 
-          <br>
+          <br />
 
           <div>
             <div>
@@ -147,46 +139,64 @@
             </div>
 
             <div class="skill">
-              <h6>Web Design</h6>
+              <h6>C</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr>
+                  <hr width="55%" />
                 </div>
               </div>
             </div>
 
             <div class="skill">
-              <h6>Graphic Design</h6>
+              <h6>C++</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr>
+                  <hr width="55%" />
                 </div>
               </div>
             </div>
 
             <div class="skill">
-              <h6>Print Design</h6>
+              <h6>Java (JavaFX)</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr>
+                  <hr width="65%" />
                 </div>
               </div>
             </div>
 
             <div class="skill">
-              <h6>Print Design</h6>
+              <h6>php (Laravel)</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr>
+                  <hr width="70%" />
                 </div>
               </div>
             </div>
 
             <div class="skill">
-              <h6>Print Design</h6>
+              <h6>Python (Machine Learning)</h6>
               <div class="row">
                 <div class="col-12">
-                  <hr width="40%">
+                  <hr width="65%" />
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h6>HTML &amp; CSS</h6>
+              <div class="row">
+                <div class="col-12">
+                  <hr width="80%" />
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h6>Javascript (Vue.js, Node.js, Nativescript-vue)</h6>
+              <div class="row">
+                <div class="col-12">
+                  <hr width="75%" />
                 </div>
               </div>
             </div>
@@ -234,7 +244,7 @@
     margin-bottom: 0.1rem;
   }
   .text-muted {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     margin-bottom: 0.5rem;
   }
 }

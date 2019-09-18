@@ -9,14 +9,14 @@
           <p class="headline text-muted">Get In Touch</p>
         </div>
       </div>
-      <br>
-      <br>
+      <br />
+      <br />
       <div class="row">
         <div class="info col-lg-6 col-md-6 col-12">
           <h6>
             <span>Get in Touch</span>
           </h6>
-          <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus.</p>
+          <p>I'm very apporachable, and would love to speak to you. Feel free to call, send me an email, tweet or simply complete the enquiry form.</p>
           <table>
             <tr>
               <td>
@@ -56,52 +56,60 @@
           <h6>
             <span>Contact Form</span>
           </h6>
-          <div class="input-group mb-3">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Full Name"
-              @focus="onFocus(1)"
-              @blur="onBlur(1)"
-            >
-            <div class="input-group-append">
-              <span class="input-group-text">
-                <i class="fa fa-user-circle"></i>
-              </span>
+          <form action="https://formspree.io/kritishdhaubanjar@gmail.com" method="POST">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Full Name"
+                @focus="onFocus(1)"
+                @blur="onBlur(1)"
+                name="name"
+                required
+              />
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="fa fa-user-circle"></i>
+                </span>
+              </div>
+              <hr ref="name" />
             </div>
-            <hr ref="name">
-          </div>
-          <div class="input-group mb-3">
-            <input
-              type="email"
-              class="form-control"
-              placeholder="Email Address"
-              @focus="onFocus(2)"
-              @blur="onBlur(2)"
-            >
-            <div class="input-group-append">
-              <span class="input-group-text">
-                <i class="fa fa-envelope"></i>
-              </span>
+            <div class="input-group mb-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email Address"
+                @focus="onFocus(2)"
+                @blur="onBlur(2)"
+                name="email"
+                required
+              />
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="fa fa-envelope"></i>
+                </span>
+              </div>
+              <hr ref="email" />
             </div>
-            <hr ref="email">
-          </div>
-          <div class="input-group mb-3">
-            <textarea
-              class="form-control"
-              placeholder="Message for me"
-              rows="4"
-              @focus="onFocus(3)"
-              @blur="onBlur(3)"
-            ></textarea>
-            <div class="input-group-append">
-              <span class="input-group-text">
-                <i class="fa fa-comments"></i>
-              </span>
+            <div class="input-group mb-3">
+              <textarea
+                class="form-control"
+                placeholder="Message for me"
+                rows="4"
+                @focus="onFocus(3)"
+                @blur="onBlur(3)"
+                name="message"
+                required
+              ></textarea>
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="fa fa-comments"></i>
+                </span>
+              </div>
+              <hr ref="message" />
             </div>
-            <hr ref="message">
-          </div>
-          <button type="button" class="btn btn-outline-danger">Send Message</button>
+            <button type="submit" class="btn btn-outline-danger">Send Message</button>
+          </form>
         </div>
       </div>
     </div>
@@ -145,9 +153,6 @@ export default {
 
 <style lang="scss" scoped>
 $color: #e65959;
-#contact {
-}
-
 ul {
   list-style-type: none;
 }

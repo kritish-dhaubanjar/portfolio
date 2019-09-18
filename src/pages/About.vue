@@ -14,7 +14,7 @@
       <div class="row">
         <div class="info col-lg-6 col-md-6 col-12">
           <h6>
-            <span style="border-bottom:0">I am Web Developer/Designer @ Company.com</span>
+            <span style="border-bottom:0">I am a Web Developer/Designer</span>
           </h6>
           <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
           <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus. Sed tellus nibh, lobortis ut blandit sed, convallis a mauris.</p>
