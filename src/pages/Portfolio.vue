@@ -74,19 +74,25 @@
           </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
-          <div class="card" data-content="My Portfolio">
-            <img src="../../dist/works/_portfolio.png" class="card-img-top" alt="..." />
-          </div>
+          <router-link to="/myportfolio">
+            <div class="card" data-content="My Portfolio">
+              <img src="../../dist/works/_portfolio.png" class="card-img-top" alt="..." />
+            </div>
+          </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
-          <div class="card" data-content="Tantrajyotish">
-            <img src="../../dist/works/_tantrajyotish.png" class="card-img-top" alt="..." />
-          </div>
+          <router-link to="/tantrajyotish">
+            <div class="card" data-content="Tantrajyotish">
+              <img src="../../dist/works/_tantrajyotish.png" class="card-img-top" alt="..." />
+            </div>
+          </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
-          <div class="card" data-content="#Tag Online Store">
-            <img src="../../dist/works/_hashtag.png" class="card-img-top" alt="..." />
-          </div>
+          <router-link to="/hashtag">
+            <div class="card" data-content="#Tag Online Store">
+              <img src="../../dist/works/_hashtag.png" class="card-img-top" alt="..." />
+            </div>
+          </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item illustration">
           <div class="card" data-content="Lite Technical Exhibition 2019 HAS">
@@ -99,29 +105,39 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item academic">
-          <div class="card" data-content="Semantic Question Pair Matching">
-            <img src="../../dist/works/_Major.png" class="card-img-top" alt="..." />
-          </div>
+          <router-link to="/semantic">
+            <div class="card" data-content="Semantic Question Pair Matching">
+              <img src="../../dist/works/_Major.png" class="card-img-top" alt="..." />
+            </div>
+          </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item academic">
-          <div class="card" data-content="Home Automation System with RPi">
-            <img src="../../dist/works/_HAS.png" class="card-img-top" alt="..." />
-          </div>
+          <router-link to="homeautomation">
+            <div class="card" data-content="Home Automation System with RPi">
+              <img src="../../dist/works/_HAS.png" class="card-img-top" alt="..." />
+            </div>
+          </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item mobile">
-          <div class="card" data-content="Charon Classroom Applcation">
-            <img src="../../dist/works/_Charon.png" class="card-img-top" alt="..." />
-          </div>
+          <router-link to="/charon">
+            <div class="card" data-content="Charon Classroom Applcation">
+              <img src="../../dist/works/_Charon.png" class="card-img-top" alt="..." />
+            </div>
+          </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item mobile">
-          <div class="card" data-content="Youtube Audio Downloader">
-            <img src="../../dist/works/_Youtube.png" class="card-img-top" alt="..." />
-          </div>
+          <router-link to="/youtube">
+            <div class="card" data-content="Youtube Audio Downloader">
+              <img src="../../dist/works/_Youtube.png" class="card-img-top" alt="..." />
+            </div>
+          </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item misc">
-          <div class="card" data-content="SQL Electron Client">
-            <img src="../../dist/works/_SQL.png" class="card-img-top" alt="..." />
-          </div>
+          <router-link to="/sqlelectron">
+            <div class="card" data-content="SQL Electron Client">
+              <img src="../../dist/works/_SQL.png" class="card-img-top" alt="..." />
+            </div>
+          </router-link>
         </div>
       </div>
     </div>

@@ -9,17 +9,21 @@
           <p class="headline text-muted">Artist, Thinker, Creative Doer</p>
         </div>
       </div>
-      <br>
-      <br>
+      <br />
+      <br />
       <div class="row">
-        <div class="info col-lg-6 col-md-6 col-12">
+        <!-- <div class="info col-lg-6 col-md-6 col-12"> -->
+        <div class="info col-lg-12 col-md-12 col-12">
           <h6>
-            <span style="border-bottom:0">I am a Web Developer/Designer</span>
+            <span style="border-bottom:0">I am a Computer Engineer also, Web Developer/Designer</span>
           </h6>
-          <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
-          <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus. Sed tellus nibh, lobortis ut blandit sed, convallis a mauris.</p>
+          <p>
+            With an aim to achieve high career growth through a continuous learning process, enhance my skills, capabilities and keep myself dynamic, visionary, adaptive and competitive
+            with the changing scenario of the world; saying true to my profession, "Computer Engineering".
+          </p>
+          <!-- <p>Sed eleifend sed nibh nec fringilla. Donec eu cursus sem, vitae tristique ante. Cras pretium rutrum egestas. Integer ultrices libero sed justo vehicula, eget tincidunt tortor tempus. Sed tellus nibh, lobortis ut blandit sed, convallis a mauris.</p> -->
         </div>
-        <div class="info col-lg-6 col-md-6 col-12">
+        <!-- <div class="info col-lg-6 col-md-6 col-12">
           <h6>
             <span>Testimonials</span>
           </h6>
@@ -28,14 +32,14 @@
               <img
                 src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/images/testimonials/testimonila_photo_2.png"
                 class="img-fluid"
-              >
+              />
               <p>
                 <span
                   class="quote"
                 >Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa.</span>
-                <br>
+                <br />
                 <b>-John Doe</b>
-                <br>
+                <br />
                 <span class="text-muted">APPLE INC.</span>
               </p>
             </div>
@@ -43,14 +47,14 @@
               <img
                 src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/images/testimonials/testimonila_photo_2.png"
                 class="img-fluid"
-              >
+              />
               <p>
                 <span
                   class="quote"
                 >Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa.</span>
-                <br>
+                <br />
                 <b>-John Doe</b>
-                <br>
+                <br />
                 <span class="text-muted">APPLE INC.</span>
               </p>
             </div>
@@ -63,13 +67,13 @@
               <i class="fa fa-angle-right" aria-hidden="true"></i>
             </button>
           </div>
-        </div>
+        </div>-->
       </div>
-      <br>
+      <br />
       <div class="row">
         <div class="info col-12">
           <h6>
-            <span>Services</span>
+            <span>Work Interests</span>
           </h6>
         </div>
       </div>
@@ -78,37 +82,37 @@
           <img
             src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/images/service/web_design.png"
             class="img-fluid"
-          >
+          />
           <h6>Web Design</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          <p>Building static and truly dynamic websites allowing my clients to unlock the site potential to quickly reach their target market.</p>
         </div>
         <div class="item col-lg-3 col-md-3 col-sm-3 col-6">
           <img
             src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/images/service/copywrite.png"
             class="img-fluid"
-          >
-          <h6>Copywriter</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          />
+          <h6>Mobile Applications</h6>
+          <p>Highest quality apps with brilliant UX/UI designs built on cutting-edge technologies.</p>
         </div>
         <div class="item col-lg-3 col-md-3 col-sm-3 col-6">
           <img
             src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/images/service/ecommerce.png"
             class="img-fluid"
-          >
+          />
           <h6>E-Commerce</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          <p>Delight your customers with the perfect online store built and managed by our premier full-service eCommerce agency.</p>
         </div>
         <div class="item col-lg-3 col-md-3 col-sm-3 col-6">
           <img
             src="https://lmpixels.com/demo/sunshine-demo/sunshine-version-2/sunshine-html-template/images/service/management.png"
             class="img-fluid"
-          >
-          <h6>Management</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          />
+          <h6>Softwares</h6>
+          <p>Platform-specific and cross-platform desktop app development to help you turn a solid software idea into a market sensation.</p>
         </div>
       </div>
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="info col-12">
           <h6>
             <span>Fun Facts</span>
@@ -144,7 +148,7 @@
             <h5>1,024</h5>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>

@@ -3,15 +3,15 @@
     <div class="wrapper">
       <div class="content">
         <h1>Kritish Dhaubanjar</h1>
-        <br>
+        <br />
         <p>Computer Engineer</p>
-        <br>
+        <br />
         <table>
           <tr>
             <td>
               <span class="head">Age</span>
             </td>
-            <td>23</td>
+            <td>22</td>
           </tr>
           <tr>
             <td>

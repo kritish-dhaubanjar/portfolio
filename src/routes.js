@@ -6,6 +6,13 @@ import Contact from "./pages/Contact.vue";
 
 import PM from "./pages/projects/PM.vue";
 import Kritish from "./pages/projects/Kritish.vue";
+import Astrology from "./pages/projects/Astrology.vue";
+import Hashtag from "./pages/projects/Hashtag.vue";
+import Semantic from "./pages/projects/Semantic.vue";
+import HAS from "./pages/projects/HAS.vue";
+import Youtube from "./pages/projects/Youtube.vue";
+import Charon from "./pages/projects/Charon.vue";
+import SQLElectron from "./pages/projects/SQLElectron.vue";
 
 export const routes = [
   {
@@ -35,5 +42,33 @@ export const routes = [
   {
     path: "/myportfolio",
     component: Kritish
+  },
+  {
+    path: "/tantrajyotish",
+    component: Astrology
+  },
+  {
+    path: "/hashtag",
+    component: Hashtag
+  },
+  {
+    path: "/semantic",
+    component: Semantic
+  },
+  {
+    path: "/homeautomation",
+    component: HAS
+  },
+  {
+    path: "/youtube",
+    component: Youtube
+  },
+  {
+    path: "/charon",
+    component: Charon
+  },
+  {
+    path: "/sqlelectron",
+    component: SQLElectron
   }
 ];

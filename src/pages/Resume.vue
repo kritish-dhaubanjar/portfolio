@@ -193,7 +193,7 @@
             </div>
 
             <div class="skill">
-              <h6>Javascript (Vue.js, Node.js, Nativescript-vue)</h6>
+              <h6>Javascript (Vue.js, Node.js, Nativescript-vue, Electron.js)</h6>
               <div class="row">
                 <div class="col-12">
                   <hr width="75%" />
@@ -204,7 +204,9 @@
         </div>
       </div>
 
-      <button type="button" class="btn btn-outline-danger">Download CV</button>
+      <a href="https://google.com" target="_blank">
+        <button type="button" class="btn btn-outline-danger">Download CV</button>
+      </a>
     </div>
   </div>
 </template>
