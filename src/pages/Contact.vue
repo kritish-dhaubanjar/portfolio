@@ -16,7 +16,10 @@
           <h6>
             <span>Get in Touch</span>
           </h6>
-          <p>I'm very apporachable, and would love to speak to you. Feel free to call, send me an email, tweet or simply complete the enquiry form.</p>
+          <p>
+            I'm very apporachable, and would love to speak to you. Feel free to
+            call, send me an email, tweet or simply complete the enquiry form.
+          </p>
           <table>
             <tr>
               <td>
@@ -24,7 +27,7 @@
                   <i class="fa fa-map-marker"></i>
                 </span>
               </td>
-              <td>Koteshwor-35, Kathmandu</td>
+              <td>Koteshwor-32, Kathmandu</td>
             </tr>
             <tr>
               <td>
@@ -56,7 +59,10 @@
           <h6>
             <span>Contact Form</span>
           </h6>
-          <form action="https://formspree.io/kritishdhaubanjar@gmail.com" method="POST">
+          <form
+            action="https://formspree.io/kritishdhaubanjar@gmail.com"
+            method="POST"
+          >
             <div class="input-group mb-3">
               <input
                 type="text"
@@ -108,7 +114,9 @@
               </div>
               <hr ref="message" />
             </div>
-            <button type="submit" class="btn btn-outline-danger">Send Message</button>
+            <button type="submit" class="btn btn-outline-danger">
+              Send Message
+            </button>
           </form>
         </div>
       </div>
@@ -150,7 +158,6 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
 $color: #e65959;
 ul {
@@ -186,9 +193,13 @@ textarea {
   padding: 1.15rem;
   font-family: "PT Sans", sans-serif !important;
 }
-
-input:focus {
+textarea:focus,
+textarea:active,
+input:focus,
+input:active {
   box-shadow: none;
+  outline: none;
+  border-color: #ced4da !important;
 }
 
 hr {

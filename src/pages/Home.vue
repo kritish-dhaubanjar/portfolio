@@ -11,13 +11,13 @@
             <td>
               <span class="head">Age</span>
             </td>
-            <td>22</td>
+            <td>23</td>
           </tr>
           <tr>
             <td>
               <span class="head">Address</span>
             </td>
-            <td>Koteshwor-35, Kathmandu</td>
+            <td>Koteshwor-32, Kathmandu</td>
           </tr>
           <tr>
             <td>
@@ -31,12 +31,12 @@
             </td>
             <td>+977 9843684612</td>
           </tr>
-          <tr>
+          <!-- <tr>
             <td>
               <span class="head">Freelance</span>
             </td>
             <td>Available</td>
-          </tr>
+          </tr> -->
           <tr>
             <td>
               <span class="head">Designed by</span>
@@ -135,4 +135,3 @@ table {
   }
 }
 </style>
-

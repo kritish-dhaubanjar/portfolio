@@ -17,125 +17,271 @@
             <button
               type="button"
               class="btn btn-primary"
-              :class="{'btn-active' : none}"
+              :class="{ 'btn-active': none }"
               @click="filter('*')"
-            >All</button>
+            >
+              All
+            </button>
           </li>
           <li>
             <button
               type="button"
               class="btn btn-primary"
-              :class="{'btn-active' : website}"
+              :class="{ 'btn-active': applications }"
+              @click="filter('.applications')"
+            >
+              Applications
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              class="btn btn-primary"
+              :class="{ 'btn-active': website }"
               @click="filter('.website')"
-            >Website</button>
+            >
+              Website
+            </button>
           </li>
           <li>
             <button
               type="button"
               class="btn btn-primary"
-              :class="{'btn-active' : illustration}"
+              :class="{ 'btn-active': illustration }"
               @click="filter('.illustration')"
-            >Illustration</button>
+            >
+              Illustration
+            </button>
           </li>
           <li>
             <button
               type="button"
               class="btn btn-primary"
-              :class="{'btn-active' : academic}"
+              :class="{ 'btn-active': academic }"
               @click="filter('.academic')"
-            >Academic</button>
+            >
+              Academic
+            </button>
           </li>
           <li>
             <button
               type="button"
               class="btn btn-primary"
-              :class="{'btn-active' : mobile}"
+              :class="{ 'btn-active': mobile }"
               @click="filter('.mobile')"
-            >Mobile</button>
+            >
+              Mobile
+            </button>
           </li>
           <li>
             <button
               type="button"
               class="btn btn-primary"
-              :class="{'btn-active' : misc}"
+              :class="{ 'btn-active': misc }"
               @click="filter('.misc')"
-            >Misc</button>
+            >
+              Misc
+            </button>
           </li>
         </ul>
       </div>
       <br />
       <br />
       <div class="row grid">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item applications">
+          <router-link to="/codeboard">
+            <div class="card" data-content="CodeBoard">
+              <img
+                src="../../dist/works/_Code.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </router-link>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
+          <router-link to="/krisht">
+            <div class="card" data-content="Krish T. Trading &amp; Industries">
+              <img
+                src="../../dist/works/_KrishT.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </router-link>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item applications">
+          <router-link to="/kanban">
+            <div class="card" data-content="Kanban Board">
+              <img
+                src="../../dist/works/_Kanban.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </router-link>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item applications">
+          <router-link to="/accounting">
+            <div class="card" data-content="StrongB0x Accounting">
+              <img
+                src="../../dist/works/_Accounts.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </router-link>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item applications">
+          <router-link to="/cvmaker">
+            <div class="card" data-content="CV Maker">
+              <img
+                src="../../dist/works/_CV.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </router-link>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
+          <router-link to="/tisacafe">
+            <div class="card" data-content="Tisa Cafe">
+              <img
+                src="../../dist/works/_Tisa.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </router-link>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
+          <router-link to="/continentalhrd">
+            <div
+              class="card"
+              data-content="Continental HRD Consultants Pvt. Ltd."
+            >
+              <img
+                src="../../dist/works/_Continental.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </router-link>
+        </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
           <router-link to="/pmconstructioneng">
             <div class="card" data-content="P.M. Construction and Engineers">
-              <img src="../../dist/works/_PM.png" class="card-img-top" alt="..." />
+              <img
+                src="../../dist/works/_PM.png"
+                class="card-img-top"
+                alt="..."
+              />
             </div>
           </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
           <router-link to="/myportfolio">
             <div class="card" data-content="My Portfolio">
-              <img src="../../dist/works/_portfolio.png" class="card-img-top" alt="..." />
+              <img
+                src="../../dist/works/_portfolio.png"
+                class="card-img-top"
+                alt="..."
+              />
             </div>
           </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
           <router-link to="/tantrajyotish">
             <div class="card" data-content="Tantrajyotish">
-              <img src="../../dist/works/_tantrajyotish.png" class="card-img-top" alt="..." />
+              <img
+                src="../../dist/works/_tantrajyotish.png"
+                class="card-img-top"
+                alt="..."
+              />
             </div>
           </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item website">
           <router-link to="/hashtag">
             <div class="card" data-content="#Tag Online Store">
-              <img src="../../dist/works/_hashtag.png" class="card-img-top" alt="..." />
+              <img
+                src="../../dist/works/_hashtag.png"
+                class="card-img-top"
+                alt="..."
+              />
             </div>
           </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item illustration">
           <div class="card" data-content="Lite Technical Exhibition 2019 HAS">
-            <img src="../../dist/works/HAS.jpg" class="card-img-top" alt="..." />
+            <img
+              src="../../dist/works/HAS.jpg"
+              class="card-img-top"
+              alt="..."
+            />
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item illustration">
           <div class="card" data-content="Counter Strike 1.6 Tournament 2019">
-            <img src="../../dist/works/_CS.jpg" class="card-img-top" alt="..." />
+            <img
+              src="../../dist/works/_CS.jpg"
+              class="card-img-top"
+              alt="..."
+            />
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item academic">
           <router-link to="/semantic">
             <div class="card" data-content="Semantic Question Pair Matching">
-              <img src="../../dist/works/_Major.png" class="card-img-top" alt="..." />
+              <img
+                src="../../dist/works/_Major.png"
+                class="card-img-top"
+                alt="..."
+              />
             </div>
           </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item academic">
           <router-link to="homeautomation">
             <div class="card" data-content="Home Automation System with RPi">
-              <img src="../../dist/works/_HAS.png" class="card-img-top" alt="..." />
+              <img
+                src="../../dist/works/_HAS.png"
+                class="card-img-top"
+                alt="..."
+              />
             </div>
           </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item mobile">
           <router-link to="/charon">
             <div class="card" data-content="Charon Classroom Applcation">
-              <img src="../../dist/works/_Charon.png" class="card-img-top" alt="..." />
+              <img
+                src="../../dist/works/_Charon.png"
+                class="card-img-top"
+                alt="..."
+              />
             </div>
           </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item mobile">
           <router-link to="/youtube">
             <div class="card" data-content="Youtube Audio Downloader">
-              <img src="../../dist/works/_Youtube.png" class="card-img-top" alt="..." />
+              <img
+                src="../../dist/works/_Youtube.png"
+                class="card-img-top"
+                alt="..."
+              />
             </div>
           </router-link>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item misc">
           <router-link to="/sqlelectron">
             <div class="card" data-content="SQL Electron Client">
-              <img src="../../dist/works/_SQL.png" class="card-img-top" alt="..." />
+              <img
+                src="../../dist/works/_SQL.png"
+                class="card-img-top"
+                alt="..."
+              />
             </div>
           </router-link>
         </div>
@@ -153,6 +299,7 @@ export default {
   data() {
     return {
       none: true,
+      applications: false,
       website: false,
       illustration: false,
       academic: false,
@@ -174,6 +321,7 @@ export default {
     filter(payload) {
       this.iso.arrange({ filter: payload });
       this.none = false;
+      this.applications = false;
       this.website = false;
       this.illustration = false;
       this.academic = false;
@@ -182,6 +330,9 @@ export default {
       switch (payload) {
         case "*":
           this.none = true;
+          break;
+        case ".applications":
+          this.applications = true;
           break;
         case ".website":
           this.website = true;

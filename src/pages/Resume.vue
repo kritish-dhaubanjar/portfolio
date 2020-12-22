@@ -6,7 +6,7 @@
           <h4>Resume</h4>
         </div>
         <div class="col d-md-none d-none d-sm-none d-lg-block">
-          <!-- <p class="headline text-muted">1 Years of Experience</p> -->
+          <p class="headline text-muted">A Year of Experience</p>
         </div>
       </div>
       <br />
@@ -25,7 +25,7 @@
             <div class="detail">
               <h6>Bachelor's Degree in Computer Engineering</h6>
               <p class="text-muted">Kantipur Engineering College</p>
-              <p>Tribhuvan University</p>
+              <p>Tribhuvan University <br />Percentage: 80.24%</p>
             </div>
           </div>
 
@@ -76,7 +76,10 @@
             <div class="detail">
               <h6>Best Minor Project in Computer Engineering</h6>
               <p class="text-muted">Kantipur Engineering College</p>
-              <p>In recognition of the best minor project entitled "Home Automation with RPi".</p>
+              <p>
+                In recognition of the best minor project entitled "Home
+                Automation with RPi".
+              </p>
             </div>
           </div>
           <div>
@@ -88,7 +91,10 @@
             <div class="detail">
               <h6>Four Year Scholarship</h6>
               <p class="text-muted">Kantipur Engineering College</p>
-              <p>In recognition of ranking 353, scoring 72.86% in BE/B.Arch. Entrance Examination 2072.</p>
+              <p>
+                In recognition of ranking 353, scoring 72.86% in BE/B.Arch.
+                Entrance Examination 2072.
+              </p>
             </div>
           </div>
         </div>
@@ -139,16 +145,7 @@
             </div>
 
             <div class="skill">
-              <h6>C</h6>
-              <div class="row">
-                <div class="col-12">
-                  <hr width="55%" />
-                </div>
-              </div>
-            </div>
-
-            <div class="skill">
-              <h6>C++</h6>
+              <h6>C & C++</h6>
               <div class="row">
                 <div class="col-12">
                   <hr width="55%" />
@@ -193,10 +190,60 @@
             </div>
 
             <div class="skill">
-              <h6>Javascript (Vue.js, Node.js, Nativescript-vue, Electron.js)</h6>
+              <h6>
+                Javascript (Vue.js, Node.js)
+              </h6>
               <div class="row">
                 <div class="col-12">
                   <hr width="75%" />
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h6>
+                Dart (Flutter)
+              </h6>
+              <div class="row">
+                <div class="col-12">
+                  <hr width="45%" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br />
+
+          <div>
+            <div>
+              <h6>
+                <span>Tools Skills</span>
+              </h6>
+            </div>
+
+            <div class="skill">
+              <h6>Linux</h6>
+              <div class="row">
+                <div class="col-12">
+                  <hr width="50%" />
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h6>Git</h6>
+              <div class="row">
+                <div class="col-12">
+                  <hr width="55%" />
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h6>Docker</h6>
+              <div class="row">
+                <div class="col-12">
+                  <hr width="35%" />
                 </div>
               </div>
             </div>
@@ -204,8 +251,10 @@
         </div>
       </div>
 
-      <a href="https://google.com" target="_blank">
-        <button type="button" class="btn btn-outline-danger">Download CV</button>
+      <a href="./../dist/CV_Kritish_Dhaubanjar_2020.pdf" target="_blank">
+        <button type="button" class="btn btn-outline-danger">
+          Download CV
+        </button>
       </a>
     </div>
   </div>
@@ -287,4 +336,3 @@ button {
   font-family: "PT Sans", sans-serif !important;
 }
 </style>
-

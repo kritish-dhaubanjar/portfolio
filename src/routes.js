@@ -4,6 +4,13 @@ import Resume from "./pages/Resume.vue";
 import Portfolio from "./pages/Portfolio.vue";
 import Contact from "./pages/Contact.vue";
 
+import CodeBoard from "./pages/projects/CodeBoard.vue";
+import KrishT from "./pages/projects/KrishT.vue";
+import Kanban from "./pages/projects/Kanban.vue";
+import Tisa from "./pages/projects/Tisa.vue";
+import CV from "./pages/projects/CV.vue";
+import Accounting from "./pages/projects/Accounting.vue";
+import Continental from "./pages/projects/Continental.vue";
 import PM from "./pages/projects/PM.vue";
 import Kritish from "./pages/projects/Kritish.vue";
 import Astrology from "./pages/projects/Astrology.vue";
@@ -34,6 +41,35 @@ export const routes = [
   {
     path: "/contact",
     component: Contact
+  },
+  //
+  {
+    path: "/codeboard",
+    component: CodeBoard
+  },
+  {
+    path: "/krisht",
+    component: KrishT
+  },
+  {
+    path: "/kanban",
+    component: Kanban
+  },
+  {
+    path: "/cvmaker",
+    component: CV
+  },
+  {
+    path: "/accounting",
+    component: Accounting
+  },
+  {
+    path: "/tisacafe",
+    component: Tisa
+  },
+  {
+    path: "/continentalhrd",
+    component: Continental
   },
   {
     path: "/pmconstructioneng",
