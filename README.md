@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+![kritishdhaubanjar com np_(Laptop with MDPI screen)](https://user-images.githubusercontent.com/25634165/113707131-3120eb80-96ff-11eb-84db-ccf48ba284be.png)
+
 ## Build Setup
 
 ``` bash
