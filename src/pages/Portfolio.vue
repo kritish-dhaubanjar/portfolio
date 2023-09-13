@@ -285,6 +285,17 @@
             </div>
           </router-link>
         </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 grid-item applications">
+          <router-link to="/dynamodb-dashboard">
+            <div class="card" data-content="DynamoDB Dashboard">
+              <img
+                src="../../dist/works/_DB.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </router-link>
+        </div>
       </div>
     </div>
   </div>

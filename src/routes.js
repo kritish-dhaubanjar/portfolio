@@ -20,6 +20,7 @@ import HAS from "./pages/projects/HAS.vue";
 import Youtube from "./pages/projects/Youtube.vue";
 import Charon from "./pages/projects/Charon.vue";
 import SQLElectron from "./pages/projects/SQLElectron.vue";
+import DynamoDBDashboard from "./pages/projects/DynamoDBDashbooard.vue";
 
 export const routes = [
   {
@@ -106,5 +107,9 @@ export const routes = [
   {
     path: "/sqlelectron",
     component: SQLElectron
+  },
+  {
+    path: "/dynamodb-dashboard",
+    component: DynamoDBDashboard
   }
 ];
